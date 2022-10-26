@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+#apresentacao{
+    background-image: url(./imagens/bg-primo-rico-desk.png);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-grupo-primo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+
+    top: 26px;
+}
+
+#conteiner-apresentacao{
+    width: 100%;
+    max-width:1300px ;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#apresentacao-texto-esqueda{
+    width: 520px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#logo-primo-rico{
+    margin-bottom: 60px;
+}
+
+#apresentacao-texto-esqueda h1{
+    margin-bottom: 50px;
+    font-size:45px;
+}
+
+#apresentacao-texto-esqueda h1 > span{
+    background-color: orangered;
+}
+
+#apresentacao-texto-esqueda button{
+    background-color: orangered;
+    border: 0.5px solid orangered;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: white;
+    padding: 20px 30px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+#apresentacao-texto-esqueda button:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: orangered;
+    transition: linear;
+    transition-duration: 0.2s;
+}
+
+#staage{
+    background-image: url(./imagens/bg-staage-desk.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+}
+
+#conteiner-staage{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#staage-left{
+    width: 700px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#logo-staage{
+    margin-bottom: 60px;
+}
+
+#staage-left h1{
+    margin-bottom: 30px;
+    font-size:34px;
+}
+
+#staage-left p{
+    margin-bottom: 15px;
+    color: #F68525;
+}
+
+#text-staage{
+    margin-bottom: 60px;
+    color: gray;
+    font-size: 1.1rem;
+}
+
+#staage-left button{
+    background-color:#F56731;
+    border: 0.5px solid #F56731;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: white;
+    padding: 15px 50px;
+    font-weight: bolder;
+}
+
+#staage-left button:hover{
+    background-image: linear-gradient(to right,#f94e79,#F3722C);
+}
+
+
+#finclass{
+    background-image: url(./imagens/bg-finclass-desk.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+}
+
+#conteiner-finclass{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#finclass-left{
+    width: 700px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#logo-finclass{
+    margin-bottom: 60px;
+}
+
+#finclass-left h1{
+    margin-bottom: 30px;
+    font-size:45px;
+}
+
+#finclass-left p{
+    margin-bottom: 15px;
+    color: #00B8E8;
+    font-weight: bolder;
+}
+
+#text-finclass{
+    margin-bottom: 60px;
+    color: rgb(194, 194, 194);
+}
+
+#finclass-left button{
+    background-color:#00E7F9;
+    border: 0.5px solid #00E7F9;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: black;
+    padding: 15px 80px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+#finclass-left button:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color:#00E7F9;
+    transition: linear;
+    transition-duration: 0.2s;
+}
+
+#mba-footer{
+    height: 100vh;
+}
+
+#mba{
+    height: 81%;
+    background-image: url(./imagens/bg-mba-desk.png);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+}
+
+#conteiner-mba{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#mba-left{
+    width: 700px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#logo-mba{
+    margin-bottom: 60px;
+}
+
+#mba-left h1{
+    margin-bottom: 30px;
+    font-size:30px;
+}
+
+
+#text-mba{
+    margin-bottom: 60px;
+    color: rgb(194, 194, 194);
+}
+
+#mba-left button{
+    background-color:#4cfeae;
+    border: 0.5px solid #31C382;
+    box-shadow: 1px 4px 10px #31C382;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: black;
+    padding: 15px 55px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+#mba-left button:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #10E7F9;
+    transition: linear;
+    transition-duration: 0.2s;
+}
+
+footer{
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 16px;
+}
+
+footer a{
+    color: white;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 0.95rem;
+}
+
+@media screen and (max-width: 500px) {
+   
+    section{
+        width: 100%;
+        height: 630px;
+    }
+
+    #apresentacao{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        background-position: 90% 0%;
+    }
+
+    #conteiner-apresentacao{
+        width: 80%;
+        margin-bottom: 25px;
+    }
+
+    #apresentacao-texto-esqueda{
+        width: 520px;
+        display: flex;
+        align-items: center;
+    }
+
+    #apresentacao-texto-esqueda h1{
+        margin-bottom: 50px;
+        font-size:25px;
+    }
+    
+    #staage{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top center;
+        /* display: flex;
+        justify-content: center;
+        align-items: flex-end; */
+    }
+
+    #conteiner-staage{
+        width: 80%;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #staage-left{
+        width: 520px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    #logo-staage{
+        margin-bottom: 20px;
+    }
+
+    #staage-left h1{
+        margin-bottom: 30px;
+        font-size:15px;
+    }
+
+    #staage-left p{
+        margin-bottom: 15px;
+        font-size: 0.8rem;
+    }
+
+    #text-staage{
+        margin-bottom: 40px;
+        font-size: 0.8rem;
+    }
+
+    #finclass{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+
+    #conteiner-finclass{
+        width: 80%;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #finclass-left{
+        width: 520px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    #logo-finclass{
+        margin-bottom: 20px;
+    }
+
+    #finclass-left h1{
+        margin-bottom: 30px;
+        font-size:15px;
+    }
+
+    #finclass-left p{
+        margin-bottom: 15px;
+        font-size: 0.8rem;
+    }
+
+    #text-finclass{
+        margin-bottom: 40px;
+        font-size: 0.8rem;
+    }
+
+    #mba{
+        height: 100%;
+        background-size: cover;
+        background-position: 92% top;
+    }
+
+    #conteiner-mba{
+        width: 80%;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #mba-left{
+        width: 520px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    #logo-mba{
+        margin-bottom: 20px;
+    }
+
+    #mba-left h1{
+        margin-bottom: 30px;
+        font-size:16px;
+    }
+
+    #mba-left p{
+        margin-bottom: 15px;
+        font-size: 0.8rem;
+    }
+
+    #text-mba{
+        margin-bottom: 40px;
+        font-size: 0.8rem;
+    }
+
+    footer{
+        height: 10%;
+    }
+}
